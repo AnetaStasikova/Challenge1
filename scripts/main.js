@@ -8,7 +8,7 @@ var vol = document.getElementById('volcano2');
 //
 
 
-function() {
+function neviem() {
   document.getElementById("volcano2").style.display = "block";
 }
 vol.addEventListener('click', function(){ 
