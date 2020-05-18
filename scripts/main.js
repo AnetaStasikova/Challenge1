@@ -14,4 +14,4 @@ function neviem() {
 vol.addEventListener('click', function(){ 
 visibility();
  console.log('visible');
-// });
+});
