@@ -1,3 +1,3 @@
-///var mouseCursor = document.getElementById('mouseCursor');
+var mouseCursor = document.getElementById('mouseCursor');
 
-//mouseCursor.AddEventListener("onmousemove");
+mouseCursor.AddEventListener('onmousemove');
