@@ -13,18 +13,20 @@
   <body>
   <a-scene>
   	      <a-assets>
-          <img id="panorama" src="images/pano.jpg" position=fixed />
+          <img id="panorama" src="images/pano.jpg" position="fixed" />
            </a-assets>
         
-<a-entity camera look-controls>
-  <a-entity cursor="fuse: true; fuseTimeout: 500"
-            position="0 0 -1"
-            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
-            material="color: black; shader: flat">
-  </a-entity>
-</a-entity>
+         <a-camera>  
+          <a-entity id="mouseCursor"
+          cursor="fuse:true; fuseTimeout:2000"> </a-entity>
+          <a-ring id="cursorRing"
+          position="0 0 -1"
+          radius-inner="0.02"
+          radius-outer="0.04"
+          material="color:#FFFFFF; shader: flat"
+          > </a-ring>
 
-<a-entity id="box" cursor-listener geometry="primitive: box" material="color: blue"></a-entity>
+     </a-camera>
         
         <a-sky src="#panorama"></a-sky>
      
