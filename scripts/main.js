@@ -1,9 +1,9 @@
-var volcano2 = document.getElementById('volcano2');
+var vol = document.getElementById('volcano2');
  
  function visibility(){
  	
- 	volcano2.display == block;
- 	console.log(volcano2.object3D.display);
+ 	vol.display == block;
+ 	console.log(vol.display);
  }
 
  volcano2.addEventListener('click', function(){ // uses a fuse
