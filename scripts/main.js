@@ -6,7 +6,7 @@ var vol = document.getElementById('volcano2');
  	console.log(vol.display);
  }
 
- volcano2.addEventListener('click', function(){ // uses a fuse
+ vol.addEventListener('click', function(){ // uses a fuse
  	visibility();
  	console.log('visible');
  });
