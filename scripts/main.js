@@ -9,9 +9,9 @@ var vol = document.getElementById('volcano2');
 
 
 function neviem() {
-  document.getElementById("volcano2").style.display = "block";
+  vol.style.display = "block";
 }
 vol.addEventListener('click', function(){ 
-visibility();
+neviem();
  console.log('visible');
 });
