@@ -1,4 +1,4 @@
-//var vol = document.getElementById('volcano2');
+var vol = document.getElementById('volcano2');
  
  //function visibility(){
  	
@@ -6,11 +6,12 @@
  	//console.log(vol.display);
 // }
 //
-/// vol.addEventListener('click', function(){ 
- 	//visibility();
- 	//console.log('visible');
-// });
 
-function myFunction() {
+
+function() {
   document.getElementById("volcano2").style.display = "block";
 }
+vol.addEventListener('click', function(){ 
+visibility();
+ console.log('visible');
+// });
