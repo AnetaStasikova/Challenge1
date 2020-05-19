@@ -1,5 +1,5 @@
 var text = document.getElementById('volcano2');
-vat ball = document.getElementById('sphere');
+var ball = document.getElementById('sphere');
 
 function visibility(){
 	text.object3D.visible = true;
