@@ -12,7 +12,7 @@ var text = document.getElementById('volcano2');
 var ball = document.getElementById('sphere');
 
 function visibility () {
-text.visible = true;
+text.object3D.visible = true;
 }
 
 ball.addEventListener('click', function(){
