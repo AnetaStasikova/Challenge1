@@ -32,8 +32,8 @@ ball2.addEventListener('click', function(){
 console.log('visible');
 })
 
-ball2.addEventListener('mouseleave', function(){
-	track.object3D.visible = false;
-	console.log('notvisible');
-})
+//ball2.addEventListener('mouseleave', function(){
+//	track.object3D.visible = false;
+//	console.log('notvisible');
+//})
 
