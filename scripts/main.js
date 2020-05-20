@@ -21,10 +21,10 @@ ball.addEventListener('mouseleave', function(){
 //* Running track
 
 
-function visibility2(){
-	track.object3D.visible = true;
-	console.log('track.object3D.visible');
-}
+//function visibility2(){
+//	track.object3D.visible = true;
+//	console.log('track.object3D.visible');
+//}
 
 //ball2.addEventListener('click', function(){
 //	visibility2();
