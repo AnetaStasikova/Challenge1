@@ -44,6 +44,11 @@ visibility2();
 console.log('visible');
 })
 
+track.addEventListener('mouseleave', function(){
+	track.object3D.visible = false;
+	console.log('notvisible');
+})
+
 
 //ball2.addEventListener('click',  function(){
 
