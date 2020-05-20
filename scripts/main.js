@@ -23,7 +23,7 @@ ball.addEventListener('mouseleave', function(){
 
 function visibility2(){
 	track.setAttribute('visible', true); 
-	track.setAttribute('style', 'display:block');
+	track.style.display = "block";
 	track.setAttribute('animation__1', 'to: 2.7;');
     track.setAttribute('animation__2', 'to: 4.2;');
 	console.log('track.object3D.visible');
