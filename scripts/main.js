@@ -28,7 +28,7 @@ function visibility2(){
 	console.log('track.object3D.visible');
 }
 
-ball2.addEventListener('click', function(){
+track.addEventListener('click', function(){
 visibility2();
 console.log('visible');
 })
