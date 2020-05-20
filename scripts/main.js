@@ -29,7 +29,7 @@ function visibility2(){
 ball2.addEventListener('click', function(){
 	visibility2();
 	//window.requestAnimationFrame();
-console.log('visible');
+    console.log('visible');
 })
 
 //ball2.addEventListener('mouseleave', function(){
