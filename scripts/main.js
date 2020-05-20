@@ -46,6 +46,7 @@ console.log('visible');
 
 track.addEventListener('mouseleave', function(){
 	track.object3D.visible = false;
+	sphere2.setAttribute('visible', true);
 	console.log('notvisible');
 })
 
