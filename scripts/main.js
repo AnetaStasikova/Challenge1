@@ -28,10 +28,10 @@ function visibility2(){
 	console.log('track.object3D.visible');
 }
 
-track.addEventListener('click', function(){
-visibility2();
-console.log('visible');
-})
+//ball2.addEventListener('click', function(){
+//visibility2();
+//console.log('visible');
+//})
 
 
 //ball2.addEventListener('click',  function(){
