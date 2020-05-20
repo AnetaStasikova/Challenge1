@@ -22,12 +22,16 @@ ball.addEventListener('mouseleave', function(){
 
 
 function visibility2(){
-	track.object3D.visible = true;
+	track.object3D.visible = true;   //I NEED THIS ONE AS WELL ON CLICK
+	track.setAttribute('animation__1', 'to: 2.7;');
+    track.setAttribute('animation__2', 'to: 4.2;');
 	console.log('track.object3D.visible');
 }
 
- track.setAttribute('animation__1', 'dur: 6000;');
- track.setAttribute('animation__2', 'dur: 6000;');
+ball2.addEventListener('click', function(){
+visibility2();
+console.log('visible');
+})
 
 
 //ball2.addEventListener('click',  function(){
@@ -38,10 +42,7 @@ function visibility2(){
 //})
 
 
-//ball2.addEventListener('click', function(){
-  //visibility2();
-  //console.log('visible');
-//})
+
 
 //ball2.addEventListener('mouseleave', function(){
 //	track.object3D.visible = false;
