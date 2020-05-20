@@ -26,8 +26,8 @@ ball.addEventListener('mouseleave', function(){
 //	console.log('track.object3D.visible');
 //}
 
- track.setAttribute('animation', 'to: 4;');
-
+ track.setAttribute('animation__1', 'to: 4;');
+ track.setAttribute('animation__2', 'to: 4;');
 //ball2.addEventListener('click',  function(){
 
 //track.setAttribute('animation', 'property:width');
