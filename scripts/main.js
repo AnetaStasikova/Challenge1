@@ -24,8 +24,13 @@ ball.addEventListener('mouseleave', function(){
 function visibility2(){
     sphere2.setAttribute('visible', false);
     track.setAttribute('visible', true); 
+    
 	track.setAttribute('animation__1', 'property:height;');
+	track.setAttribute('animation__1', 'loop: false;');
+
     track.setAttribute('animation__2', 'property:width;');
+    track.setAttribute('animation__2', 'loop: false;');
+
     track.setAttribute('animation__3', 'property:position;');
 	track.setAttribute('animation__3', 'loop: false;');
 	console.log('track.object3D.visible');
