@@ -21,17 +21,17 @@ ball.addEventListener('mouseleave', function(){
 //* Running track
 
 
-//function visibility2(){
-//	track.object3D.visible = true;
-//	console.log('track.object3D.visible');
-//}
+function visibility2(){
+	track.object3D.visible = true;
+	console.log('track.object3D.visible');
+}
 
- track.setAttribute('animation__1', 'to: 4;');
- track.setAttribute('animation__2', 'to: 4;');
+ track.setAttribute('animation__1', 'dur: 6000;');
+ track.setAttribute('animation__2', 'dur: 6000;');
+
+
 //ball2.addEventListener('click',  function(){
 
-//track.setAttribute('animation', 'property:width');
-//track.setAttribute('animation', 'property:heigh');
 //};
 	//visibility2();
 //  console.log('visible');
@@ -39,8 +39,8 @@ ball.addEventListener('mouseleave', function(){
 
 
 //ball2.addEventListener('click', function(){
-	//visibility2();
-//  console.log('visible');
+  //visibility2();
+  //console.log('visible');
 //})
 
 //ball2.addEventListener('mouseleave', function(){
