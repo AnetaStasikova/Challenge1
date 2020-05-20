@@ -23,12 +23,12 @@ ball.addEventListener('mouseleave', function(){
 
 function visibility2(){
 	track.object3D.visible = true;
-	window.requestAnimationFrame();
 	console.log('track.object3D.visible');
 }
 
 ball2.addEventListener('click', function(){
 	visibility2();
+	window.requestAnimationFrame();
 console.log('visible');
 })
 
