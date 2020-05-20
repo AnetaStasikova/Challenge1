@@ -18,8 +18,12 @@ ball.addEventListener('mouseleave', function(){
 	console.log('notvisible');
 })
 
+//* Running track
+
+
 function visibility2(){
 	track.object3D.visible = true;
+	window.requestAnimationFrame();
 	console.log('track.object3D.visible');
 }
 
