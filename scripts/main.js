@@ -24,9 +24,11 @@ ball.addEventListener('mouseleave', function(){
 function visibility2(){
 	track.setAttribute('visible', true); 
 	//track.style.display = "block";
-	track.setAttribute('animation__3', 'to: 0.8 1.3 2.2;');
+
 	track.setAttribute('animation__1', 'to: 2.7;');
     track.setAttribute('animation__2', 'to: 4.2;');
+    track.setAttribute('animation__3', 'to: 0.8 1.3 2.2;');
+	track.setAttribute('animation__3', 'loop: false;');
 	console.log('track.object3D.visible');
 }
 
