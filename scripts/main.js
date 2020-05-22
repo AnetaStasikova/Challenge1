@@ -44,15 +44,14 @@ ball2.addEventListener('click',function(){
 	console.log('visible');
 })
 
-track.addEventListener('mouseleave', function(){
-	track.object3D.visible = false;
-	sphere2.setAttribute('visible', true);
+//*track.addEventListener('mouseleave', function(){
+//*	track.object3D.visible = false;
+//*	sphere2.setAttribute('visible', true);
+//*
+//*	track.setAttribute('animation__1', 'loop: true;');
+//*    track.setAttribute('animation__2', 'loop: true;');
+//* 	track.setAttribute('animation__3', 'loop: true;');
 
-	track.setAttribute('animation__1', 'loop: true;');
-    track.setAttribute('animation__2', 'loop: true;');
- 	track.setAttribute('animation__3', 'loop: true;');
-
-	console.log('notvisible');
-})
-
+	//*console.log('notvisible');
+//*}) 
 
