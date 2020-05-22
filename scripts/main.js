@@ -23,6 +23,7 @@ ball.addEventListener('mouseleave', function(){
 //* Running track
 
 function visibility2(){
+sphere2.setAttribute('visible', false);
 
 sphere2.setAttribute('animation__1', 'property:height;');
 track.setAttribute('animation__1', 'loop:false');
