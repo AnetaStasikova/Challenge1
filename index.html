@@ -24,15 +24,16 @@
 
            <video id="video" autoplay loop="true" src="https://ucarecdn.com/3916a2b2-cce2-4874-88c9-cdd66847b54b/video.mp4" crossorigin="anonymous" muted="true"></video>
           </a-assets>
-     <a-plane id="video2";
+ <a-entity raycaster="objects:.video2; far:5"
+     a-plane id="video2";
    visible = "true";
    width = "3";
    height = "1.5";
    position = " 0.8 1 2.2";
    rotation = "0 20 0";
    material = "src:#video";
-   ></a-plane> 
-<a-entity raycaster="objects:.video2; far:5"></a-entity>
+  >
+</a-entity>
 
 
          <a-camera >  
