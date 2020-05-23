@@ -37,14 +37,12 @@ sphere2.setAttribute('animation__3', 'property:position;');
 track.setAttribute('animation__3', 'loop:false');
 
 track.setAttribute('visible', true);
-
-setTimeout(function(){    button.setAttribute('visible', true);}, 4000);
-
 console.log('track.object3D.visible');
 }
 
 ball2.addEventListener('click',function(){
 	visibility2();
+	setTimeout(function(){    button.setAttribute('visible', true);}, 4000);
 	console.log('visible');
 })
 
