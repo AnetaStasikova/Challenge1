@@ -2,8 +2,8 @@ var text = document.getElementById('volcano2');
 var ball = document.getElementById('sphere');
 var ball2 = document.getElementById('sphere2');
 var track = document.getElementById('run');
-//var video = document.getElementById('video2');
-//var button = document.getElementById('buttonplay');
+var video = document.getElementById('video2');
+var button = document.getElementById('buttonplay');
 
 function visibility(){
 	text.object3D.visible = true;
@@ -37,7 +37,7 @@ sphere2.setAttribute('animation__3', 'property:position;');
 track.setAttribute('animation__3', 'loop:false');
 
 track.setAttribute('visible', true);
-//setTimeout(function(){    button.setAttribute('visible', true);}, 4000);
+setTimeout(function(){    button.setAttribute('visible', true);}, 4000);
 
 console.log('track.object3D.visible');
 }
@@ -48,15 +48,15 @@ ball2.addEventListener('click',function(){
 	console.log('visible');
 })
 
-//function playvideo(){
-//video.setAttribute('visible', 'true');
-//button.setAttribute('visible','false');
-//console.log('track.object3D.playing');
-//}
-//button.addEventListener('click', function(){
-//	playvideo();
-//	console.log('playvideo');
-//})
+function playvideo(){
+video.setAttribute('visible', 'true');
+button.setAttribute('visible','false');
+console.log('track.object3D.playing');
+}
+button.addEventListener('click', function(){
+	playvideo();
+	console.log('playvideo');
+})
 
 
 
