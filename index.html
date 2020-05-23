@@ -8,8 +8,8 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="scripts/main.js" defer></script>
     <link rel="stylesheet" href="styles/style.css" />
-
   <script> UPLOADCARE_PUBLIC_KEY = '241f5f4aa7721aac4b09';</script>
+
 <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
 
   </head>
@@ -21,9 +21,9 @@
           <img id="volcano" src="images/volcano.png"/> 
           <img id = "field" src = "images/RUN.png">
           <img id = "playbutton" src="images/play.png">
-         <video id="video" autoplay loop="true" 
-          src="https://ucarecdn.com/3916a2b2-cce2-4874-88c9-cdd66847b54b/video.mp4" 
-          crossorigin="anonymous" muted="true" autoplay="true" loop="true"></video>
+
+
+           <video id="video" autoplay loop="true" src="https://ucarecdn.com/3916a2b2-cce2-4874-88c9-cdd66847b54b/video.mp4" crossorigin="anonymous" muted="true" autoplay="true" loop="true"></video>
           </a-assets>
 
          <a-camera >  
@@ -94,18 +94,25 @@ opacity ="0.75";
    loop:true;
    delay:0;"
    >
-    
 
-    <a-plane id="video2";
-    visible="true";
-    width="3";
-    height="1.5";
-    position="0.82 2.2 2.5";
-    rotation="0 -160 0";
-    material="src:#video";
-    > </a-plane>
-    
+        <a-plane id="video2";
+   visible = "false";
+   width = "3";
+   height = "1.5";
+   position = " 0.82 2.2 2.5";
+   rotation = "0 -160 0";
+   material = "src:#video";
+   ></a-plane> 
 
+   <a-image id="buttonplay"
+     src="#playbutton";
+     visible="false";
+     width = "0.8"
+     heigh= "0.05";
+     position="0.65 2 2";
+     rotation="0 0 180";
+    > </a-image>
+    
     </a-scene>
   </body>
 </html>

@@ -46,6 +46,22 @@ ball2.addEventListener('click',function(){
 	console.log('visible');
 })
 
+function playvideo(){
+video.setAttribute('visible', 'true');
+button.setAttribute('visible','false');
+console.log('track.object3D.playing');
+
+}
+
+button.addEventListener('click', function(){
+	playvideo();
+	console.log('playvideo');
+})
+
+
+
+
+
 
 
 //*track.addEventListener('mouseleave', function(){
