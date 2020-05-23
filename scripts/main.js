@@ -2,8 +2,8 @@ var text = document.getElementById('volcano2');
 var ball = document.getElementById('sphere');
 var ball2 = document.getElementById('sphere2');
 var track = document.getElementById('run');
-var video = document.getElementById('video2');
-var button = document.getElementById('buttonplay');
+//var video = document.getElementById('video2');
+//var button = document.getElementById('buttonplay');
 
 function visibility(){
 	text.object3D.visible = true;
