@@ -48,7 +48,7 @@ ball2.addEventListener('click',function(){
 })
 
 function playvideo(){
-video.setAttribute('animation__4', 'property:visible');
+video.setAttribute('visible', 'true');
 button.setAttribute('visible','false');
 console.log('track.object3D.playing');
 
