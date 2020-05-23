@@ -38,7 +38,7 @@ track.setAttribute('animation__3', 'loop:false');
 
 track.setAttribute('visible', true);
 
-setTimeout(function(){button.setAttribute('visible', true);}, 4000);
+//setTimeout(function(){button.setAttribute('visible', true);}, 4000);
 
 console.log('track.object3D.visible');
 }
@@ -48,17 +48,17 @@ ball2.addEventListener('click',function(){
 	console.log('visible');
 })
 
-function playvideo(){
-video.setAttribute('visible', 'true');
-button.setAttribute('visible','false');
-console.log('track.object3D.playing');
+//function playvideo(){
+//video.setAttribute('visible', 'true');
+//button.setAttribute('visible','false');
+//console.log('track.object3D.playing');
 
-}
+//}
 
-button.addEventListener('click', function(){
-	playvideo();
-	console.log('playvideo');
-})
+//button.addEventListener('click', function(){
+//	playvideo();
+//	console.log('playvideo');
+//})
 
 
 
