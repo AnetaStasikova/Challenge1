@@ -38,7 +38,10 @@ track.setAttribute('animation__3', 'loop:false');
 
 track.setAttribute('visible', true);
 
-button.setAttribute('visible', true);
+setTimeout(function(){    button.setAttribute('visible', true);}, 4000);
+
+//button.setAttribute('visible', true);
+
 console.log('track.object3D.visible');
 }
 
